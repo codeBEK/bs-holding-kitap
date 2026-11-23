@@ -1,1 +1,15 @@
-{"name":"bs-kitap","version":"3.0.0","private":true,"scripts":{"start":"node server.js"},"engines":{"node":">=20"}}
+{
+  "name": "bs-holding-kitap",
+  "version": "4.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check db.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "pg": "^8.13.3"
+  }
+}
